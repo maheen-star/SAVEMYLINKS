@@ -275,8 +275,8 @@ h4,h5,h6,.h4,.h5,.h6
     letter-spacing:-0.1px;
 }
 .hero-paragraph{
-    font-size: 19px;
-    line-height: 27px;
+    font-size: 22px;
+    line-height: 32px;
 
 }
 .text-xs
@@ -852,7 +852,7 @@ button,input,select,textarea,label
     .cta{position:relative}
     .cta .section-inner{padding-bottom:64px}
     .cta .section-paragraph{margin-bottom:32px}
-    .cta::before{content:'';position:absolute;bottom:-32px;left:calc(50% - 720px);height:263px;width:1440px;background-image:url("../images/cta-illustration-light.svg")}.lights-off .cta::before{background-image:url("../images/cta-illustration-dark.svg")}
+    .last-feature::before{content:'';position:absolute;bottom:-32px;left:calc(50% - 720px);height:263px;width:1440px;background-image:url("../images/cta-illustration-light.svg")}.lights-off .cta::before{background-image:url("../images/cta-illustration-dark.svg")}
     .cta-cta{max-width:400px;margin-left:auto;margin-right:auto
 }
 @media (max-width: 639px){.cta-cta .button{display:flex}}@media (min-width: 641px){.cta .section-inner{padding-bottom:128px}.cta .section-paragraph{margin-bottom:40px;padding-left:72px;padding-right:72px}.cta::before{bottom:0}.cta-cta .button{min-width:170px}}.is-boxed{background:#E9EDF3}.body-wrap{background:#fff;overflow:hidden;display:flex;flex-direction:column;min-height:100vh}.boxed-container{max-width:1440px;margin:0 auto;box-shadow:0 16px 48px rgba(255,255,255,0.5)}main{flex:1 0 auto}.section-inner{position:relative;padding-top:48px;padding-bottom:48px}@media (min-width: 641px){.section-inner{padding-top:88px;padding-bottom:88px}}.site-footer{font-size:14px;line-height:20px;letter-spacing:0px;background:#182538;color:#6B7A90}.site-footer a{color:#6B7A90;text-decoration:none}.site-footer a:hover,.site-footer a:active{text-decoration:underline}.site-footer::before{display:none}.lights-off .site-footer::before{display:block}.site-footer-inner{position:relative;display:flex;flex-wrap:wrap;padding-top:48px;padding-bottom:48px}.footer-brand,.footer-links,.footer-social-links,.footer-copyright{flex:none;width:100%;display:inline-flex;justify-content:center}.footer-brand,.footer-links,.footer-social-links{margin-bottom:24px}.footer-links li+li,.footer-social-links li+li{margin-left:16px}.footer-social-links li{display:inline-flex}.footer-social-links li a{padding:8px}@media (min-width: 641px){.site-footer-inner{justify-content:space-between;padding-top:72px;padding-bottom:72px}.footer-brand,.footer-links,.footer-social-links,.footer-copyright{flex:50%}.footer-brand,.footer-copyright{justify-content:flex-start}.footer-links,.footer-social-links{justify-content:flex-end}.footer-links{order:1;margin-bottom:0}}.switch[type="checkbox"]+label::before{background:#41a5ea;background:linear-gradient(to right, #2FEAFC 0, #535FD7 100%)}.switch[type="checkbox"]+label::after{background:#fff}.switch[type="checkbox"]:checked+label::before{background:#ff9d34;background:linear-gradient(to right, #FFBC48 0, #FE7E1F 100%)}.asset-light,.asset-dark{visibility:hidden;opacity:0}.is-loaded .asset-light,.is-loaded .asset-dark{visibility:visible;opacity:1}.asset-dark{display:none}.lights-off{color:#8595AE}.lights-off .asset-light{display:none}.lights-off .asset-dark{display:block}.lights-off a{color:#8595AE}.lights-off h1,.lights-off h2,.lights-off h3,.lights-off h4,.lights-off h5,.lights-off h6,.lights-off .h1,.lights-off .h2,.lights-off .h3,.lights-off .h4,.lights-off .h5,.lights-off .h6{color:#fff !important}.lights-off.is-boxed{background:#202d3f}.lights-off .body-wrap{background:#182538}.lights-off .boxed-container{box-shadow:0 16px 48px rgba(0,0,0,0.2)}.lights-off hr{display:block;height:1px;background:#304057}.lights-off .has-top-divider{position:relative}.lights-off .has-top-divider::before{content:'';position:absolute;top:0;left:0;width:100%;display:block;height:1px;background:#304057}.lights-off .has-bottom-divider{position:relative}.lights-off .has-bottom-divider::after{content:'';position:absolute;bottom:0;left:0;width:100%;display:block;height:1px;background:#304057}body,a,h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{transition:color .25s ease}.is-boxed,.body-wrap,.has-top-divider,.has-bottom-divider::after,hr::after,.feature-title::after{transition:background .25s ease}.boxed-container{transition:box-shadow .15s ease}@keyframes fadeInLogo{0%{opacity:0;transform:scale(0.5)}}@keyframes fadeInLeftMedia{0%{opacity:0;transform:scale(0.8) translate3d(40px, 10px, 0)}30%{opacity:1}}@keyframes fadeInLeftIllustration{0%{opacity:0;transform:scale(0.95) translate3d(40px, 10px, 0)}}@keyframes fadeUpBox{0%{opacity:0;transform:scale(0.95) translate3d(-40px, 20px, 0)}30%{opacity:1}}@keyframes fadeIn{0%{opacity:0}}.is-loaded .header-logo-image{animation:fadeInLogo 0.35s both cubic-bezier(0.3, 0, 0.2, 1);will-change:transform}.is-loaded .hero-media-image{animation:fadeInLeftMedia 1s 0.2s both cubic-bezier(0.3, 0, 0.2, 1);will-change:transform}.is-loaded .hero-media-illustration-image{animation:fadeInLeftIllustration 1s 0.2s both cubic-bezier(0.3, 0, 0.2, 1);will-change:transform}.is-loaded .features-box{animation:fadeUpBox 1s 0.2s both cubic-bezier(0.3, 0, 0.2, 1);will-change:transform}.is-loaded .header-illustration-image{animation:fadeIn 1s both cubic-bezier(0.3, 0, 0.2, 1);will-change:transform}.is-loaded .features-illustration{animation:fadeIn 1s 0.2s both cubic-bezier(0.3, 0, 0.2, 1);will-change:transform}
@@ -929,7 +929,7 @@ button,input,select,textarea,label
     padding-top: 80px;
     padding-bottom: 16px;
     background-color: #fff;
-    border-top: 1px solid #e9e8f5;}
+    }
 .page-footer h3, .page-footer h4, .page-footer h5 {
     margin-bottom: 24px;
     font-weight: 600;
